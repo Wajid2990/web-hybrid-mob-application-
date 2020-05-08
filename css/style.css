@@ -1,0 +1,226 @@
+/******************************************* Header  **************************************/
+.header{
+    background-color: #316DC3;
+}
+  
+i.fa{
+    padding: 0px 6px;
+    color: #fff;
+    margin: 6px 0px 0px 0px;
+    line-height: 2;
+}
+  .fa:hover {
+      background-color: #306dd8 ;
+      transition: all 0.3s ease-in-out;
+}
+
+  .whatsapp:hover{
+    background-color: #306dd8 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.whatsapp{
+    margin-left:-15px;
+  padding: 6px 6px;
+  font-size: 14px;
+  width: 10px ;
+  text-decoration: none;
+  filter: brightness(100%);
+
+}
+p.text-center.styling{
+    color: #fff;
+    margin: 10px 0 0 0;
+    line-height: 2;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif ;
+    font-stretch: extra-expanded;
+}
+a.btn.btn-style{
+    line-height: 2;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 2px 10px 2px 8px;
+    margin: 8px -15px 0 15px;
+    border: 1px solid gray;
+    background-color: #F5F5F5;
+    color: #427900;
+    border-color: #006618;
+}
+/******************************************* Header **************************************/
+/******************************************* NAVBAR **************************************/
+div#collapsibleNavbar{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0px 0 95px;
+}
+.dropdown{
+    padding: 20px 0px 20px 0px;
+}
+li.nav-item{
+    padding-top: 10px;
+    margin-top: -20px;
+}
+a.nav-link{
+    color: black;
+    padding: 5px 20px 6px 20px !important;
+    border-radius: 20px;
+}
+img.logo-style{
+    max-height: 52px;
+    max-width: 100%;
+}
+a.nav-link.active{
+    color: #fff;
+    background-color: #316DC3;
+    padding: 5px 20px 6px 20px !important;
+    border-radius: 20px;
+}
+.dropdown:hover> .nav-link {
+    color: #fff !important;
+    background-color: #316DC3;
+}
+a.nav-link:hover{
+    color: #fff !important;
+    background-color: #316DC3;
+    
+}
+i.fa.fa-angle-down{
+    color: #808080;
+    font-size: 10px;
+}     
+.dropdown-item:hover{
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #316dc3 !important;
+}
+.dropdown:hover> .dropdown-menu  {
+    display: block;
+    color: white;
+}
+.nav-item:hover> .nav-link {
+    color: #fff !important;
+    background-color: #316DC3;
+}
+.dropdown-item:hover> .nav-link > i.fa.fa-angle-right {
+    color: #fff !important;
+    background-color: #316DC3;
+}
+.dropdown:hover>  .nav-link > i.fa.fa-angle-down{
+    color: #fff !important;
+    background: #316DC3;
+}
+
+.dropdown-menu{
+    top:45px !important;
+    font-size: 14px !important;
+}
+/******************************************* NAVBAR  **************************************/
+/******************************************* section1 SLIDER **************************************/
+.container.marque-color marquee{
+    color: #fff;
+}
+.carousel-inner img{
+    width: 100% !important;
+    height: 500px;
+    margin: 0 0 25px 0;
+}
+img.adjust{
+    height: 495px;
+}
+/******************************************* section1  **************************************/
+/******************************************* section2 INTRO **************************************/
+section.Intro.container-fluid.bg-light{
+    padding: 70px 0 125px 0px;
+    margin: 10px 0px 0 0;
+}
+h2.text-center.fontweight{
+    font-weight: 700;
+    font-size: 45px;
+}
+.heading-icon center>p{
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 10px 0px 0px;
+}
+.intro_details p{
+    margin: 20px 0px 0 90px;
+    color: #808080;
+}
+/******************************************* section2  **************************************/
+/******************************************* section3 COUNTER **************************************/
+section.counter{
+    padding: 40px 0 100px 0;
+    background-color: #2754e9;
+}
+.text-white{
+    margin: 10px 0 15px 0;
+    color: #fff!important;
+}
+h5.text-white{
+    font-size: 15px;
+}
+.row.margin_set{
+    margin: 40px 0 0 0;
+}   
+/******************************************* section3 **************************************/
+/******************************************* section4 WE_DOING **************************************/
+.container.we_doing{
+    padding: 75px 0 0 10px;
+}
+.text-center.bg-white{
+    padding: 30px 0px 40px 0;
+    margin: 30px 0 0px 0;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+section.container-fluid.bg-light{
+    padding: 0 0 85px 0;
+}
+/******************************************* section4 **************************************/
+/******************************************* section5 UPCOMING **************************************/
+.text-uppercase{
+    font-size: 15px;
+}
+.left.media.bg-silver-light{
+    padding: 30px 0 22px 40px;
+    background-color: #c0c0c066;
+    margin: 25px 0 0 0;
+}
+img.img-heading-gap{
+    margin: 0 25px 0 0;
+}
+/******************************************* section5 **************************************/
+/******************************************* section6 gallery **************************************/
+section.gallery{
+    padding: 130px 0 0 0;
+}
+/******************************************* section6 **************************************/
+/******************************************* FOOTER **************************************/
+ul.footer_list_contacts>li>i.fa{
+    color: #427900;
+    margin: 5px 10px 0px 15px;
+}
+ul.footer_list_contacts li{
+    color: #848588;
+    font-size: 12px;
+    list-style: none;
+    margin: 7px 0 0px 0;
+}
+ul.footer_list_contacts{
+    padding: 0px;
+}
+ul.icons-style>li{
+    display: contents;
+    list-style: none;   
+}
+ul.icons-style>li>a>i.fa{
+    color: white;
+    background-color: #316DC3;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+ul.icons-style{
+    padding: 0px;
+}
+/******************************************* FOOTER **************************************/
